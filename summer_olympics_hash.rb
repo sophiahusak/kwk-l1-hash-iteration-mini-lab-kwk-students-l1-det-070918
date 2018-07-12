@@ -13,5 +13,6 @@ def iterate_through_hash
 end
 
 def iterate_through_keys
-puts upcased_cities
+  upcased_cities = [:Sydney, :Athens, :Beijing, :London]
+  puts upcased_cities
 end
