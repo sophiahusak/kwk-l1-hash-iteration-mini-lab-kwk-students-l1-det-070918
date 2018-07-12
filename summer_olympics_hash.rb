@@ -13,5 +13,5 @@ def iterate_through_hash
 end
 
 def iterate_through_keys
-  
-
+puts upcased_cities
+end
