@@ -8,11 +8,11 @@ def add_a_key_value_pair
 end
 
 def iterate_through_hash
-   summer_olympics.each do |place, year|
+   summer_olympics.each do |Place, Year|
   puts "The #{year} summer olympics took place in #{place}."
 end
 
 def iterate_through_keys
-  upcased_cities = [:Sydney, :Athens, :Beijing, :London]
+  upcased_cities = [:SYDNEY, :ATHENS, :BEIJING, :LONDON]
   puts upcased_cities
 end
